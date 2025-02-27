@@ -10,7 +10,7 @@
 javac *.java
 java Game
 ```
-####If you're running this game online:
+#### If you're running this game online:
 - Download all the files, then run Game.java (or compile Game.java then run the compiled file)
 ### Python Version (original, might be easier to understand):
  - Download the files in `/old_python_verson` in **one directory**.
