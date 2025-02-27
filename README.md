@@ -64,7 +64,7 @@ class ExampleBot extends BattleBot
   }
 ```
 </details>
- - Now, go to `arena.java` and change `bot1` or `bot2` with your bot, as an object of type BattleBot, et voilà! Now, your bot will be in the match. Cool, right? Like training a chicken then sending it out to fight!
+- Now, go to `arena.java` and change `bot1` or `bot2` with your bot, as an object of type BattleBot, et voilà! Now, your bot will be in the match. Cool, right? Like training a chicken then sending it out to fight!
 
 ## How to run this game:
 ### Java Version (much faster and way better):
