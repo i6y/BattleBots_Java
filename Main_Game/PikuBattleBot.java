@@ -17,7 +17,8 @@ public class PikuBattleBot extends BattleBot
     public void take_turn(BattleBot enemy)
     {
         //----INITIAL UPGRADES
-        // max out hull first, then other stats in order of armor, damage, then speed
+        // max out hull first, then other stats in order of armor, damage, then speed.
+        // Always prioritize hull upgrades so the bot stays alive
         if(hull<98*5)
         {
             this.upgrade_hull();;
