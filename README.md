@@ -7,10 +7,10 @@ Read first how to play the game, then how to run it below.
 - #### [About this game](#a-little-about-the-history-of-this-game)
 ## How you should play this game (will add Python version docs l8r):
 ### Java Version:
- - In the `/Main_Game` directory there are two bot files: `LiamBattleBot.java` and `PikuBattleBot.java` **These are two example robots to help you code your own!**.
-     - **For newcomers:** It is highly suggested you check out `LiamBattleBot.java` first, as it is the most simple robot, and is a great reference for coding your own.
+- In the `/Main_Game` directory there are two bot files: `LiamBattleBot.java` and `PikuBattleBot.java` **These are two example robots to help you code your own!**.
+    - **For newcomers:** It is highly suggested you check out `LiamBattleBot.java` first, as it is the most simple robot, and is a great reference for coding your own.
  
- - Say you want to create it from scratch. You should begin your file as follows:
+- Say you want to create it from scratch. You should begin your file as follows:
     - Your bot **must** have the following stats (and they **must** all add up to 25 for fairness):
         - **As a string:** `this.name`
         - **As a double:** `this.hull`
@@ -19,6 +19,7 @@ Read first how to play the game, then how to run it below.
         - **As a double:** `this.base_speed`
         - **As an integer:** `this.scrap`
           > Note: it is best to set scrap as 0, so your bot's power is all immediately usable. Scrap builds up by sacrificing/"scrapping" a number of points of a specified stat. You can then use that scrap to super upgrade other stats past their normal limits.
+ - Now, go to `arena.java` and change `bot1` or `bot2` with your bot, as an object of type BattleBot, et voilà! Now, your bot will be in the match. Cool, right? Like training a chicken then sending it out to fight!
 
 <details>
 <summary><ins>ExampleBot.java</ins></summary>
@@ -64,7 +65,6 @@ class ExampleBot extends BattleBot
   }
 ```
 </details>
-- Now, go to `arena.java` and change `bot1` or `bot2` with your bot, as an object of type BattleBot, et voilà! Now, your bot will be in the match. Cool, right? Like training a chicken then sending it out to fight!
 
 ## How to run this game:
 ### Java Version (much faster and way better):
