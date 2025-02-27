@@ -38,7 +38,8 @@ class BotXYZ extends BattleBot
     public void take_turn(BattleBot enemy)
     {
         // In this example, 'BotXYZ' uses RNG(random number generation) to decide what to do. However, the fun of it is that it's all up to you!
-        // NOTE: Your bot is only able to do one move at a time. As such, program your bot in such a way that if you plan to do a combo of moves, you create a placeholder variable so that it knows how far it is in the sequence, as the combo will be split into multiple turns.
+        // NOTE: Your bot is only able to do one move at a time. As such, program your bot in such a way that if you
+        // plan to do a combo of moves, you create a placeholder variable so that it knows how far it is in the sequence, as the combo will be split into multiple turns.
         int rand = (int) (Math.random() * 10 + 1);
         if(rand < 7)
         {
