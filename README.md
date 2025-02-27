@@ -24,6 +24,7 @@
 ```java
 class BotXYZ extends BattleBot
 {
+    //The class constructor, where you define the bot's name and stats, along with extra variables and parameters that are unique to your bot.
     public BotXYZ()
     {
         this.name = "BotXYZ";
@@ -32,6 +33,28 @@ class BotXYZ extends BattleBot
         this.base_damage = 1.0;
         this.base_speed = 1.0;
         this.scrap = 0;
+    }
+    //The function where you code what the bot does.
+    public void take_turn(BattleBot enemy)
+    {
+        int rand = (int) (Math.random() * 10 + 1);
+        if(rand < 7)
+        {
+            this.upgrade_speed();
+        }
+        else if(rand<8)
+        {
+            this.attack(enemy);
+        }
+        else if(rand<9)
+        {
+            this.upgrade_damage();
+        }
+        else if(rand < 10)
+        {
+            this.upgrade_speed();
+        }
+        
     }
 }
 ```
