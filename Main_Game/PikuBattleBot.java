@@ -7,7 +7,7 @@ public class PikuBattleBot extends BattleBot
     {
         this.name = "Glod";
         this.hull = 5.0 * (1*HullValue);
-        this.base_armor = 19.0;
+        this.base_armor = 18.0;
         this.base_damage = 1.0;
         this.base_speed = 1.0;
         this.scrap = 0;
