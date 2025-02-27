@@ -10,8 +10,8 @@ Read first how to play the game, then how to run it below.
 - In the `/Main_Game` directory there are two bot files: `LiamBattleBot.java` and `PikuBattleBot.java` **These are two example robots to help you code your own!**.
     - **For newcomers:** It is highly suggested you check out `LiamBattleBot.java` first, as it is the most simple robot, and is a great reference for coding your own.
  
-- Say you want to create it from scratch. You should begin your file as follows:
-    - Your bot **must** have the following stats (and they **must** all add up to 25 for fairness):
+- Say you want to create it from scratch. You should begin your file as follows below:
+    -  Note: Your bot **must** have the following stats (and they **must** all add up to 25 for fairness):
         - **As a string:** `this.name`
         - **As a double:** `this.hull`
         - **As a double:** `this.base_armor`
