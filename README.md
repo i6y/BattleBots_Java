@@ -17,7 +17,7 @@
         - **As a double** `this.base_damage`
         - **As a double** `this.base_speed`
         - **As an integer** `this.scrap`
-          > Note: it is best to set scrap as 0, so your bot's power is all immediately usable. Scrap builds up by sacrificing/"scrapping" stat points to super upgrade other stats past their limits.
+          > Note: it is best to set scrap as 0, so your bot's power is all immediately usable. Scrap builds up by sacrificing/"scrapping" a number of points of a specified stat to super upgrade other stats past their limits.
 
 **<ins>BotXYZ.java</ins>**
 ```java
