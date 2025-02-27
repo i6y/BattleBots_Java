@@ -23,43 +23,10 @@
 <details>
     <summary><ins>BotXYZ.java</ins></summary>
  
-    ```js
+    ```java
     class BotXYZ extends BattleBot
     {
-        // The class constructor, where you define your bot's name and stats, along with extra variables and parameters that are unique to your bot.
-        public BotXYZ()
-        {
-            this.name = "BotXYZ";
-            this.hull = 5.0 * (HullValue);
-            this.base_armor = 19.0;
-            this.base_damage = 1.0;
-            this.base_speed = 1.0;
-            this.scrap = 0;
-        }
-        // The function where you code what the bot does. This must be titled take_turn.
-        public void take_turn(BattleBot enemy)
-        {
-            // In this example, 'BotXYZ' uses RNG(random number generation) to decide what to do. However, the fun of it is that it's all up to you!
-            // NOTE: Your bot is only able to do one move at a time. As such, program your bot in such a way that if you
-            // plan to do a combo of moves, there is a placeholder variable so that it knows how far it is in the sequence, as the combo will be split into multiple turns.
-            int rand = (int) (Math.random() * 10 + 1);
-            if(rand < 7)
-            {
-                this.upgrade_hull();
-            }
-            else if(rand < 8)
-            {
-                this.attack(enemy);
-            }
-            else if(rand < 9)
-            {
-                this.upgrade_damage();
-            }
-            else if(rand < 10)
-            {
-                this.upgrade_speed();
-            }
-        }
+ 
     }
     ```
 </details>
