@@ -17,7 +17,8 @@
         - **As a double** `this.base_damage`
         - **As a double** `this.base_speed`
         - **As an integer** `this.scrap`
-**BotXYZ.java**
+
+**<ins>BotXYZ.java</ins>**
 ```java
 class BotXYZ extends BattleBot
 {
