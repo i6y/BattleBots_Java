@@ -19,7 +19,6 @@ Read first how to play the game, then how to run it below.
         - **As a double:** `this.base_speed`
         - **As an integer:** `this.scrap`
           > Note: it is best to set scrap as 0, so your bot's power is all immediately usable. Scrap builds up by sacrificing/"scrapping" a number of points of a specified stat. You can then use that scrap to super upgrade other stats past their normal limits.
- - Now, go to `arena.java` and change `bot1` or `bot2` with your bot, as an object of type BattleBot, et voilà! Now, your bot will be in the match. Cool, right? Like training a chicken then sending it out to fight!
 
 <details>
 <summary><ins>ExampleBot.java</ins></summary>
@@ -65,6 +64,8 @@ class ExampleBot extends BattleBot
   }
 ```
 </details>
+
+ - Now, go to `arena.java` and change `bot1` or `bot2` with your bot, as an object of type BattleBot, et voilà! Now, your bot will be in the match. Cool, right? Like training a chicken then sending it out to fight!
 
 ## How to run this game:
 ### Java Version (much faster and way better):
