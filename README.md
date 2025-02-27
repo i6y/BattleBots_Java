@@ -18,6 +18,7 @@
         - **As a double** `this.base_speed`
         - **As an integer** `this.scrap`
           > Note: it is best to set scrap as 0.
+
 **<ins>BotXYZ.java</ins>**
 ```java
 class BotXYZ extends BattleBot
