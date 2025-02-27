@@ -6,7 +6,7 @@
 ## How you should play this game (will add Python version docs l8r):
 ### Java Version:
  - In the `/Main_Game` directory there are two bot files: LiamBattleBot.java and PikuBattleBot.java.
-  - **For newcomers**
+     - **For newcomers**
 
 ## How to run this game:
 ### Java Version (much faster and way better):
