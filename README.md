@@ -2,7 +2,7 @@
 #### A fun, turn-based battle bots game, in Java!
 #### Here, you can find both the old Python version of the game, and the new version, in Java!
 ## How to run this game:
-### Java Version (much faster):
+### Java Version (much faster and way better):
 - Download the files in `/Main_Game` in **one directory**, then open that directory in the terminal.
 
 - Once you are in the directory of the game, execute these in the terminal:
