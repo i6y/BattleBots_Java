@@ -23,6 +23,8 @@ Read first how to play the game, then how to run it below.
 
 <details>
   <summary><ins>BotXYZ.java</ins></summary>
+
+ 
   ```java
   class BotXYZ extends BattleBot
   {
