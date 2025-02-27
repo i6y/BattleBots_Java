@@ -3,10 +3,10 @@ public class LiamBattleBot extends BattleBot
     public LiamBattleBot()
     {
         this.name = "Someone's Robot";
-        this.hull = 7.0 * (1*HullValue);
+        this.hull = 10.0 * (1*HullValue);
         this.base_armor = 7.0;
         this.base_damage = 7.0;
-        this.base_speed = 2.0;
+        this.base_speed = 1.0;
         this.scrap = 0;
     }
     public void take_turn(BattleBot enemy)
