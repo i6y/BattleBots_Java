@@ -22,6 +22,7 @@
 
 <details>
     <summary><ins>**BotXYZ.java**</ins></summary>
+ 
     ```java
     class BotXYZ extends BattleBot
     {
