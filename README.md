@@ -10,8 +10,11 @@
 javac *.java
 java Game
 ```
+####If you're running this game online:
+- Download all the files, then run Game.java (or compile Game.java then run the compiled file)
 ### Python Version (original, might be easier to understand):
- - Download the files in
+ - Download the files in `/old_python_verson` in **one directory**.
+ - Run Bots `Maybe Main.py`
 ## A little about the history of this game:
 AFAIK, this game was originally created during Summer 2022 or before for an iDTech summer camp.
 The basis of this game is that you code your own robot, giving it stats and an AI that tells it what to do.
