@@ -23,7 +23,7 @@
 <details>
     <summary><ins>BotXYZ.java</ins></summary>
  
-    ```java
+    ```js
     class BotXYZ extends BattleBot
     {
         // The class constructor, where you define your bot's name and stats, along with extra variables and parameters that are unique to your bot.
