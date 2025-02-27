@@ -6,7 +6,7 @@
 - Download the files in `/Main_Game` in **one directory**, then open that directory in the terminal.
 
 - Once you are in the directory of the game, execute these in the terminal:
-```
+```zsh
 javac *.java
 java Game
 ```
