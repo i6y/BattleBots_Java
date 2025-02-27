@@ -2,10 +2,11 @@
 #### A fun, turn-based BattleBots game, where you code your own bots and pit them against others!
 #### Here, you can find both the old Python version of the game, and the new version, in Java!
 #### Read first how to play the game, then how to run it below.
+#### [How to play the game](-How-you-should-play-this-game)
 
 ## How you should play this game (will add Python version docs l8r):
 ### Java Version:
- - In the `/Main_Game` directory there are two bot files: `LiamBattleBot.java` and `PikuBattleBot.java`.
+ - In the `/Main_Game` directory there are two bot files: `LiamBattleBot.java` and `PikuBattleBot.java` **These are two example robots to help you code your own!**.
      - **For newcomers:** It is highly suggested you check out `LiamBattleBot.java` first, as it is the most simple robot, and is a great reference for coding your own.
 
 ## How to run this game:
