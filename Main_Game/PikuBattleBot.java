@@ -12,10 +12,12 @@ public class PikuBattleBot extends BattleBot
         this.base_speed = 1.0;
         this.scrap = 0;
     } 
+    // This advanced Bot's take_turn function! It first maxes out its stats, then transitions to a "super mode" where it scraps damage, and super upgrades its hull past the limit, while simultaneously upgrading its damage to keep it maxed out.
+    // Often, a match with this bot will span multiple hundreds of moves, because of the time required to do this procedure.
     public void take_turn(BattleBot enemy)
     {
         //----INITIAL UPGRADES
-        // upgrade hull first, then other stats
+        // max out hull first, then other stats in order of armor, damage, then speed
         if(hull<98*5)
         {
             this.upgrade_hull();;
