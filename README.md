@@ -21,7 +21,7 @@
           > Note: it is best to set scrap as 0, so your bot's power is all immediately usable. Scrap builds up by sacrificing/"scrapping" a number of points of a specified stat to super upgrade other stats past their limits.
 
 <details>
-    <summary>**<ins>BotXYZ.java</ins>**</summary>
+    <summary><ins>**BotXYZ.java**</ins></summary>
     ```java
     class BotXYZ extends BattleBot
     {
