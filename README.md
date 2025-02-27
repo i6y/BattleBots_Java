@@ -22,16 +22,16 @@ Read first how to play the game, then how to run it below.
           > Note: it is best to set scrap as 0, so your bot's power is all immediately usable. Scrap builds up by sacrificing/"scrapping" a number of points of a specified stat to super upgrade other stats past their limits.
 
 <details>
-  <summary><ins>BotXYZ.java</ins></summary>
+  <summary><ins>ExampleBot.java</ins></summary>
 
  
   ```java
-  class BotXYZ extends BattleBot
+  class ExampleBot extends BattleBot
   {
       // The class constructor, where you define your bot's name and stats, along with extra variables and parameters that are unique to your bot.
       public BotXYZ()
       {
-          this.name = "BotXYZ";
+          this.name = "Example";
           this.hull = 5.0 * (HullValue);
           this.base_armor = 19.0;
           this.base_damage = 1.0;
