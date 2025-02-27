@@ -13,12 +13,12 @@ Read first how to play the game, then how to run it below.
  
  - Say you want to create it from scratch. You should begin your file as follows:
     - Your bot **must** have the following stats (and they **must** all add up to 25 for fairness):
-        - **As a string** `this.name`
-        - **As a double** `this.hull`
-        - **As a double** `this.base_armor`
-        - **As a double** `this.base_damage`
-        - **As a double** `this.base_speed`
-        - **As an integer** `this.scrap`
+        - **As a string:** `this.name`
+        - **As a double:** `this.hull`
+        - **As a double:** `this.base_armor`
+        - **As a double:** `this.base_damage`
+        - **As a double:** `this.base_speed`
+        - **As an integer:** `this.scrap`
           > Note: it is best to set scrap as 0, so your bot's power is all immediately usable. Scrap builds up by sacrificing/"scrapping" a number of points of a specified stat to super upgrade other stats past their limits.
 
 <details>
