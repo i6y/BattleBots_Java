@@ -34,7 +34,7 @@ class BotXYZ extends BattleBot
         this.base_speed = 1.0;
         this.scrap = 0;
     }
-    // The function where you code what the bot does.
+    // The function where you code what the bot does. This must be titled take_turn.
     public void take_turn(BattleBot enemy)
     {
         // In this example, 'BotXYZ' uses RNG(random number generation) to decide what to do. However, the fun of it is that it's all up to you!
@@ -45,11 +45,11 @@ class BotXYZ extends BattleBot
         {
             this.upgrade_hull();
         }
-        else if(rand<8)
+        else if(rand < 8)
         {
             this.attack(enemy);
         }
-        else if(rand<9)
+        else if(rand < 9)
         {
             this.upgrade_damage();
         }
