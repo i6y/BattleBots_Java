@@ -20,7 +20,8 @@
         - **As an integer** `this.scrap`
           > Note: it is best to set scrap as 0, so your bot's power is all immediately usable. Scrap builds up by sacrificing/"scrapping" a number of points of a specified stat to super upgrade other stats past their limits.
 
-<summary>**<ins>BotXYZ.java</ins>**
+<details>
+    <summary>**<ins>BotXYZ.java</ins>**</summary>
     ```java
     class BotXYZ extends BattleBot
     {
@@ -60,7 +61,7 @@
         }
     }
     ```
-</summary>
+</details>
 
 ## How to run this game:
 ### Java Version (much faster and way better):
