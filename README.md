@@ -1,7 +1,7 @@
 # BattleBots_Java
 #### A fun, turn-based BattleBots game, where you code your own bots and pit them against others!
 #### Here, you can find both the old Python version of the game, and the new version, in Java!
-#### Read 
+#### Read first how to play the game, then how to run it below.
 
 ## How you should play this game (will add Python version docs l8r):
 ### Java Version:
