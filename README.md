@@ -24,7 +24,12 @@ class BotXYZ extends BattleBot
 {
     public BotXYZ()
     {
-        
+        this.name = "BotXYZ";
+        this.hull = 5.0 * (HullValue);
+        this.base_armor = 19.0;
+        this.base_damage = 1.0;
+        this.base_speed = 1.0;
+        this.scrap = 0;
     }
 }
 ```
