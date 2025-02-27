@@ -11,7 +11,7 @@
      - **For newcomers:** It is highly suggested you check out `LiamBattleBot.java` first, as it is the most simple robot, and is a great reference for coding your own.
  
  - Say you want to create it from scratch. You should begin your file as follows:
-    - Your bot **must** have the following stats, and they **must** all add up to 25 for fairness. :
+    - Your bot **must** have the following stats (and they **must** all add up to 25 for fairness):
         - **As a string** `this.name`
         - **As a double** `this.hull`
         - **As a double** `this.base_armor`
