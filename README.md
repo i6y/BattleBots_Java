@@ -81,10 +81,10 @@ java Game
 ### Python Version (original, might be easier to understand):
  - The minimum version of Python required to run this is **Python 3.0** 💀
  - Download the files in `/old_python_verson` in **one directory**.
- - Run `Bots Maybe Main.py`.
+ - Run `Main_Game.py`.
      - Mac (local):
        ```bash
-       python3 Bots\ Maybe\ Main.py
+       python3 Main_Game.py
        ```
 
 ## A little about the history of this game:
