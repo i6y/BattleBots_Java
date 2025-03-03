@@ -83,5 +83,7 @@ java Game
  - Run `Bots Maybe Main.py`
 
 ## A little about the history of this game:
-AFAIK, this game was originally created during Summer 2022 or before for an iDTech summer camp.
+AFAIK, this game was originally created **in Python** during Summer 2022 or before for an iDTech summer camp.
 The basis of this game is that you code your own robot, giving it stats and an AI that tells it what to do.
+Last summer, I then backwards engineered this version and re-coded it in Python - that is what you see in `/old_python_version`.
+I was recently assigned to recreate the game in Java, so here it is, in `/Main_Game`.
