@@ -84,7 +84,7 @@ java Game
  - Run `Bots Maybe Main.py`.
      - Mac (local):
        ```bash
-python3 Bots\ Maybe\ Main.py
+       python3 Bots\ Maybe\ Main.py
        `` 
 
 ## A little about the history of this game:
