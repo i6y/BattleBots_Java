@@ -79,8 +79,13 @@ java Game
 #### If you're running this game online:
 - Download all the files, then run `Game.java` (or compile Game.java then run the compiled file)
 ### Python Version (original, might be easier to understand):
+ - The minimum version of Python required to run this is **Python 3.0** 💀
  - Download the files in `/old_python_verson` in **one directory**.
- - Run `Bots Maybe Main.py`
+ - Run `Bots Maybe Main.py`.
+     - Mac (local):
+       ```bash
+python3 Bots\ Maybe\ Main.py
+       `` 
 
 ## A little about the history of this game:
 AFAIK, this game was originally created **in Python** during Summer 2022 or before for an iDTech summer camp.
