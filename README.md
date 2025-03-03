@@ -85,7 +85,7 @@ java Game
      - Mac (local):
        ```bash
        python3 Bots\ Maybe\ Main.py
-       `` 
+       ```
 
 ## A little about the history of this game:
 AFAIK, this game was originally created **in Python** during Summer 2022 or before for an iDTech summer camp.
